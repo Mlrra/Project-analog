@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1D0101;
+    background-image: url('https://wallpaperaccess.com/full/636909.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}u
+h1 {
+    font-size: 55px;
+    font-family: "Georgia", serif;
+    margin: 20px 0;
+    color: #040413;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align:left;
+}
+
+ul li {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 30px;
+    background: url('/image/icon-plus.png') no-repeat 5px center;
+    background-size: 20px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+table, th, td {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+}
+
+tr.head th {
+    color: #F4F0F0;
+    background-color: #29318B;
+    border: none;
+    border-radius: 10px;
+}
+
+tr.even td, tr.even th {
+    background-color: #E6D6D6;
+}
+
+fieldset {
+    width: 90%;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align:center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+legend {
+    font-style: italic;
+    color: #1E1313;
+}
+
+input[type="text"],
+select,
+input[type="radio"],
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 11px;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 18px;
+    background-color: #fff;
+    color: #333;
+}
+
+#Register {
+    background-color: #107313;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Register:hover {
+    background-color: #0c290e;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 10px 0;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 16px;
+    }
+}
